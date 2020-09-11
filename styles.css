@@ -1,5 +1,45 @@
-html{
+body{
     
     background-color: slategrey;
+}
+
+.special{
+    color: red;
+}
+
+
+.bordered{
+
+    border:solid royalblue 10px;
+    border-radius: 10px;
+
+}
+
+.highlight{
+
+    background-color: seagreen;
+}
+
+.highlight p{
+    color: purple
+}
+
+.side{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.A, .B {
+
+    width: 50%
+}
+
+.A {
+    background: blue;
+}
+
+.B {
+background: red;
 
 }
